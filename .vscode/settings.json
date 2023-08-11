@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "html.format.templating": true,
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
