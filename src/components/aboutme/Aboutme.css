@@ -8,27 +8,34 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(80px, auto);
 }
 
 .one {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  border: 2px solid #6246ea;
   grid-column: 1 / 6;
   grid-row: 1/5;
   border-radius: 1.5rem;
   padding: 2rem;
 }
-.one__image img {
-  height: 45px;
-  width: 45px;
+.one__section img {
+  height: 30px;
+  width: 30px;
 }
-.one__image {
+.one__section {
   display: flex;
   gap: 1rem;
 }
+
 .two {
-  background-color: #7f5af0;
-  grid-column: 6/12;
+  border: 1px solid #7f5af0;
+  grid-column: 6/8;
+  grid-row: 1/3;
+  border-radius: 1.5rem;
+}
+.two__dup {
+  grid-column: 8/12;
   grid-row: 1/3;
   border-radius: 1.5rem;
 }
@@ -44,4 +51,32 @@
   grid-column: 9/12;
   grid-row: 3/5;
   border-radius: 1.5rem;
+}
+
+/* ------------------    about me two  ---------- */
+
+.redux__container {
+  padding: 1rem;
+}
+.redux__subcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------  about me two__dup */
+.two__dup__title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.two__dup h3 {
+  align-self: center;
+}
+
+.android {
+  display: flex;
+}
+.ios {
+  display: flex;
 }

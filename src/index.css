@@ -124,6 +124,13 @@ img{
 .section{
   padding-top: 7rem;
   padding-bottom: 2rem;
+  
+}
+
+.all__margin__left{
+  margin-left: 10rem;
+
+
 }
 
 .section__title{
