@@ -65,18 +65,14 @@
 }
 
 /* -----------------------  about me two__dup */
-.two__dup__title {
+.two__dup {
+}
+.two__dup__container {
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
 }
-.two__dup h3 {
-  align-self: center;
-}
-
-.android {
+.two__dup__title__logo {
   display: flex;
-}
-.ios {
-  display: flex;
+  align-items: center;
 }

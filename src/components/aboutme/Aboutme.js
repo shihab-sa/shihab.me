@@ -30,19 +30,11 @@ function Subportfolio() {
               <h1>+200</h1>
             </div>
           </div>
-          <div class="two__dup">
-            <div className="two__dup__title">
-              <h3>React Native</h3>
-              <AiFillApple size={40} />
-            </div>
-            <div className="android__ios__project__com">
-              <div className="android">
-                <h5>Android</h5>
-                <h1>+400</h1>
-              </div>
-              <div className="ios">
-                <h5>iOs</h5>
-                <h1>+00</h1>
+          <div className="two__dup">
+            <div className="two__dup__container">
+              <div className="two__dup__title__logo">
+                <h3>React Native</h3>
+                <AiFillApple size={30} />
               </div>
             </div>
           </div>
