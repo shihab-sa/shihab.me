@@ -15,6 +15,7 @@
      --title-color:hsl(244,24%,26%);
      --text-color:hsl(244,16%,43%);
      --body-color:#eaeef6;
+     
      /* --container-color:#fff; */
        
 
@@ -46,9 +47,11 @@
 
           --border-radius:20px
 
-
+  
      
 }
+
+
 
 /* =======Responsive Typography ======= */
 
@@ -127,11 +130,11 @@ img{
   
 }
 
-.all__margin__left{
+ .all__margin__left{
   margin-left: 10rem;
 
 
-}
+} 
 
 .section__title{
   font-size: var(--h1-font-size);

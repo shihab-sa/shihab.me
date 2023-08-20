@@ -11,17 +11,23 @@
   grid-auto-rows: minmax(80px, auto);
 }
 
+.profile__descriotion {
+  text-align: start;
+  margin-top: 3rem;
+}
+
 .one {
-  /* background-color: #ffffff; */
-  border: 2px solid #6246ea;
+  border: 1px solid #6246ea;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: wheat;
   grid-column: 1 / 6;
   grid-row: 1/5;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   padding: 2rem;
 }
 .one__section img {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 .one__section {
   display: flex;
@@ -41,38 +47,43 @@
 }
 
 .three {
-  background-color: #b8c1ec;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
   grid-column: 6/9;
   grid-row: 3/5;
   border-radius: 1.5rem;
 }
 .four {
-  background-color: #232946;
+  background-color: #abd1c6;
   grid-column: 9/12;
   grid-row: 3/5;
   border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 /* ------------------    about me two  ---------- */
-
-.redux__container {
-  padding: 1rem;
-}
-.redux__subcontainer {
+.two {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* -----------------------  about me two__dup */
+
 .two__dup {
-}
-.two__dup__container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.two__dup__title__logo {
+
+.three {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
